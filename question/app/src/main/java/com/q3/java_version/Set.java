@@ -1,6 +1,6 @@
 package com.q3.java_version;
 
-public class SetImpl {
+public class Set {
 
     final int MAX_SIZE = 5;
 

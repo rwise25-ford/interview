@@ -1,6 +1,6 @@
 package com.q3.kotlin_version
 
-class SetImpl {
+class Set {
 
     companion object {
         private const val MAX_SIZE = 5

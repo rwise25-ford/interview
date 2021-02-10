@@ -33,16 +33,12 @@ package com.q3.kotlin_version
     void addAll(String [] stringArray);
 * */
 
-import com.q3.java_version.SetImpl
-import org.junit.Assert.assertFalse
-import org.junit.Test
-
-class SetImplTest {
+class SetTest {
 
 /*
     @Test
     fun remove_hasItem_removesItem() {
-        val set = SetImpl()
+        val set = Set()
         set.add("a")
         assertEquals(1, set.getSize())
         assertEquals(0, set.contains("a"))
@@ -53,7 +49,7 @@ class SetImplTest {
 
     @Test
     fun remove_removesMiddleItem_removesItemAndHasRemainingItemsInProperSequency() {
-        val set = SetImpl()
+        val set = Set()
         set.add("a")
         set.add("b")
         set.add("c")
@@ -70,7 +66,7 @@ class SetImplTest {
 
     @Test
     fun remove_removesFirstItem_removesItemAndHasRemainingItemsInProperSequency() {
-        val set = SetImpl()
+        val set = Set()
         set.add("a")
         set.add("b")
         set.add("c")
@@ -87,7 +83,7 @@ class SetImplTest {
 
     @Test
     fun remove_removesLastItem_removesItemAndHasRemainingItemsInProperSequence() {
-        val set = SetImpl()
+        val set = Set()
         set.add("a")
         set.add("b")
         set.add("c")
@@ -104,7 +100,7 @@ class SetImplTest {
 
     @Test
     fun remove_setIsAtMaxSize_removesItemAndHasRemainingItemsInProperSequence() {
-        val set = SetImpl()
+        val set = Set()
         set.add("1")
         set.add("2")
         set.add("3")
@@ -123,7 +119,7 @@ class SetImplTest {
 
     @Test
     fun remove_doesNotHaveItem_doesNotRemoveItem() {
-        val set = SetImpl()
+        val set = Set()
         set.add("1")
         set.add("2")
         assertEquals(2, set.getSize())

@@ -40,12 +40,12 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class SetImplTest {
+public class SetTest {
 
 /*
     @Test
     public void remove_hasItem_removesItem() {
-        SetImpl set = new SetImpl();
+        Set set = new Set();
         set.add("a");
 
         assertEquals(1, set.getSize());
@@ -59,7 +59,7 @@ public class SetImplTest {
 
     @Test
     public void remove_removesMiddleItem_removesItemAndHasRemainingItemsInProperSequency() {
-        SetImpl set = new SetImpl();
+        Set set = new Set();
         set.add("a");
         set.add("b");
         set.add("c");
@@ -79,7 +79,7 @@ public class SetImplTest {
 
     @Test
     public void remove_removesFirstItem_removesItemAndHasRemainingItemsInProperSequency() {
-        SetImpl set = new SetImpl();
+        Set set = new Set();
         set.add("a");
         set.add("b");
         set.add("c");
@@ -99,7 +99,7 @@ public class SetImplTest {
 
     @Test
     public void remove_removesLastItem_removesItemAndHasRemainingItemsInProperSequence() {
-        SetImpl set = new SetImpl();
+        Set set = new Set();
         set.add("a");
         set.add("b");
         set.add("c");
@@ -119,7 +119,7 @@ public class SetImplTest {
 
     @Test
     public void remove_setIsAtMaxSize_removesItemAndHasRemainingItemsInProperSequence() {
-        SetImpl set = new SetImpl();
+        Set set = new Set();
         set.add("1");
         set.add("2");
         set.add("3");
@@ -141,7 +141,7 @@ public class SetImplTest {
 
     @Test
     public void remove_doesNotHaveItem_doesNotRemoveItem() {
-        SetImpl set = new SetImpl();
+        Set set = new Set();
         set.add("1");
         set.add("2");
 
